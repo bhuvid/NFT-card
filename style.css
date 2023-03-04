@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,500;1,600&family=Outfit:wght@200&display=swap');
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Outfit', sans-serif;
+    font-size: 14px;
+}
+.main{
+    height:720px;
+    background:hsl(217, 54%, 11%);
+}
+.sub{
+    height:470px;
+    width:290px;
+    color:white;
+    background-color: hsl(216, 50%, 16%);
+    position:relative;
+    top:100px;
+    left:40%;
+    border-radius:2%;
+
+}
+.image-1{
+    width:300px;
+    height:250px;
+    padding:20px 20px;
+}
+.image-1 img{
+    height:250px;
+    width:250px;
+    border-radius: 2%;
+}
+.text{
+    height:110px;
+    padding:0px 22px;
+   
+}
+#one{
+    font-weight: 800;
+    margin-bottom:10px;
+}
+#one:hover{
+    color:hsl(178, 100%, 50%);
+}
+#two{
+    color:hsl(215, 51%, 70%);
+    font-weight: 400;
+    margin-bottom:10px;
+}
+.text2{
+    height:30px;
+    
+}
+#three{
+    color:hsl(178, 100%, 50%);
+    margin-bottom:10px;
+    font-weight: 600;
+
+}
+#four{
+        margin-left:40%;
+        font-weight: 500;
+        color:hsl(215, 51%, 70%);
+}
+.end{
+    margin-left:20px;
+    width:83%;
+    border-top:1px solid hsl(215, 32%, 27%);
+    padding:15px 4px;
+    display:flex;
+
+}
+.end img{
+    height:30px;
+    width:30px;
+    border-radius:50%;
+    border:1px solid white;
+}
+.end p{
+    margin:7px 15px;
+}
+#before{
+    color:hsl(215, 51%, 70%);
+}
+#after:hover{
+ color:hsl(178, 100%, 50%);
+}
+
+.attribution{ 
+    position:relative;
+    top:25%;
+    color:white;
+    font-size: 11px; text-align: center;
+ }
+.attribution a 
+{ color: hsl(215, 51%, 70%); }
